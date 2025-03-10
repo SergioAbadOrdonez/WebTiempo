@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Web del Tiempo</title>
+    <title>Weather Web</title>
 </head>
 <body>
     
-<h1>Web del Tiempo</h1>
+<header>
+    <h1>Weather Web</h1> 
+    <input type="text" name="busqueda" id="busqueda" placeholder="Busca una ciduad">
+</header>
 
-<form id="formBusqueda">
-    <input type="text" name="textoBusqueda" id="textoBusqueda" placeholder="Busca una ciduad">
-    <button type="submit">ENVIAR</button>
-</form>
-
-
-<div>
-    <ul class="ulCiudades">
-
-    </ul>
-</div>
-
-<template>
-    <li class="ciudad">
-        <h2 class="nombreCiudad"></h2>
-        <span id="nombreCiduad"></span>
-    </li>
-</template>
-
+<main>
+    <div>
+        <ul id="ulCiudades">
+            <li id="ciudad">
+                <h2 id="nombreCiudad">Hola</h2>
+                <p id="fecha">Hoy</p>
+                <p id="temperatura">15</p>
+                <p id="tiempo">15</p>
+                <p id="maxmin">15</p>
+            </li>
+        </ul>
+    </div>
+    
+    <template>
+    </template>
+    
     <script src="script.js"></script>
+</main>
 </body>
 </html>
